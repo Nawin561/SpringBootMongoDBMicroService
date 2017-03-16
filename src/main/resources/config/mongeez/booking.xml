@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-11" author="pctl">
+        <script>
+            db.booking.drop();
+            db.booking.insert( {
+
+            "psngrName": "mahesh",
+            "departure": "fhs",
+            "destination": "chennai",
+            "travelDate": "2017-03-13T11:03:53.174+0000"
+
+            })
+
+        </script>
+    </changeSet>
+    </mongoChangeLog>
